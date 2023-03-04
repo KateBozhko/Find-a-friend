@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   const [showDogs, setShowDogs] = useState(0);
-  const{id, number, puppyName, gender, month, description, price, image} = data[showDogs];
+  const{number, puppyName, gender, month, description, price, image} = data[showDogs];
 
 const nextDog = () => {
 setShowDogs(showDogs => {
